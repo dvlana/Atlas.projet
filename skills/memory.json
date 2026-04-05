@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "description": "Memória evolutiva do sistema de skills — histórico de uso, erros e melhorias",
+  "sessions": [],
+  "skill_stats": {
+    "skill_spawn_guard":          {"uses": 0, "errors": 0, "last_used": null, "improvements": []},
+    "skill_singleton_guard":      {"uses": 0, "errors": 0, "last_used": null, "improvements": []},
+    "skill_debounce_decorator":   {"uses": 0, "errors": 0, "last_used": null, "improvements": []},
+    "skill_audio_rms_detector":   {"uses": 0, "errors": 0, "last_used": null, "improvements": []},
+    "skill_pattern_window_detector": {"uses": 0, "errors": 0, "last_used": null, "improvements": []},
+    "skill_safe_run":             {"uses": 0, "errors": 0, "last_used": null, "improvements": []},
+    "skill_rotating_logger":      {"uses": 0, "errors": 0, "last_used": null, "improvements": []},
+    "skill_lazy_module_loader":   {"uses": 0, "errors": 0, "last_used": null, "improvements": []}
+  },
+  "pattern_log": [],
+  "evolution_log": [
+    {
+      "timestamp": "2026-04-05",
+      "event": "INIT",
+      "description": "Sistema de skills inicializado com 8 skills extraídas do projeto Origem.1",
+      "skills_count": 8
+    }
+  ]
+}

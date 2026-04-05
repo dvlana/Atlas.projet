@@ -1,0 +1,25 @@
+{
+  "sistema": {
+    "nome": "Origem.1",
+    "versao": "1.0.0",
+    "raiz": "C:/Users/alana/Desktop/Origem.1",
+    "criado_em": "2026-04-05"
+  },
+  "modulos": {
+    "jarvis_backend": "jvs_auth_92kx-main/Jarvis- Aula 01",
+    "jarvis_frontend": "agent-starter-react-main",
+    "livekit": "livekit",
+    "controle_pc": "jvs_auth_92kx-main/Aula automacao/Controle_PC",
+    "memoria": "jvs_auth_92kx-main/Jarvis Mem0"
+  },
+  "spawn_guard": {
+    "apps_bloqueados": ["notepad", "notepad.exe"],
+    "audit_log_ativo": true,
+    "debounce_ms": 250
+  },
+  "logging": {
+    "nivel": "INFO",
+    "pasta": "_sistema/logs",
+    "rotacao_dias": 7
+  }
+}

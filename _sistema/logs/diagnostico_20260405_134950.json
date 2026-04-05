@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-04-05T13:49:50.679463",
+  "root": "C:\\Users\\alana\\Desktop\\Origem.1",
+  "estrutura": {
+    "_sistema/core": true,
+    "_sistema/config": true,
+    "_sistema/logs": true,
+    "_sistema/debug": true,
+    "_sistema/temp": false,
+    "_sistema/modules": true,
+    "_sistema/utils": true
+  },
+  "modulos": {
+    "Jarvis Backend": true,
+    "Jarvis Frontend": true,
+    "LiveKit": true,
+    "Controle PC": true,
+    "Jarvis Memória": true,
+    "Sistema Central": true
+  },
+  "arquivos_criticos": {
+    "ClapDetector": true,
+    "AutomationController": true,
+    "SystemAutomation": true,
+    "JarvisControl": true,
+    "AgentPrincipal": true,
+    "SpawnGuard": true,
+    "SistemaCentral": true,
+    "ConfigSistema": true
+  },
+  "spawn_guard": {
+    "ok": true,
+    "detalhes": [
+      "✅ Spawn Guard (_BLOCKED_APPS) presente",
+      "✅ Log de spawn guard presente"
+    ]
+  },
+  "processos": {
+    "notepad": {
+      "rodando": false,
+      "instancias": 0
+    }
+  },
+  "alertas": [
+    "ESTRUTURA AUSENTE: _sistema/temp"
+  ],
+  "saude_geral": false
+}
